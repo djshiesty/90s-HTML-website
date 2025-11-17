@@ -103,16 +103,13 @@ h2 {
 }
 
 .mephoto {
-    width: 300px;
+    width: 400px;
     height: auto;
-    border: 2px solid white;
-    object-fit: cover;
+    border: 2px solid rgb(255, 255, 255);
 }
 
 .Meintrop {
-    font-family: 'Arial', sans-serif;
-    font-size: 14px;
-    color: rgb(255, 255, 255);
-    line-height: 1.6;
-    max-width: 600px;
+    flex: 1;
+    font-family: Helvetica, sans-serif;
+    margin-right: 200px;
 }

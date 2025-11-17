@@ -1,22 +1,38 @@
-Body {
-    background-color: #FFFDD0;
+body {
+    background-color: #000000;
 }
 
 main {
-    margin: 20px;
+    margin: 0px;
 }
 
 h1 {
-    margin-top: 30px;
-    color: black;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
     font-family: 'Slab-Serif', sans-serif;
     text-align: center;
-    font-size: 35px;
+    font-size: 70px;
+}
+
+.header_hr1 {
+    border: 0;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.header_hr2 {
+    border: 0;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .navbar ul {
     list-style-type: none;
-    background-color: #FF69B4;
+    background-color: #ffffff;
     padding: 0px;
     margin: 0px;
     display: flex;
@@ -24,7 +40,7 @@ h1 {
 }
 
 .navbar a{
-    color: white;
+    color: rgb(0, 0, 0);
     display: block;
     padding: 15px;
     text-align: center;
@@ -32,10 +48,109 @@ h1 {
 }
 
 .navbar a:hover {
-    background-color: #FF1493;
+    background-color: #808080;
+    color:white
 }
 
 .navbar li {
     flex: 1;
     text-align: center;
+}
+
+.blacktext {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.Footersection {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+}
+
+.Introsection {
+    margin-left: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+}
+
+.Chipotle {
+    width: 500px; /* set whatever size you want */
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.Chipotleintrop {
+    flex: 1;
+    font-family: Helvetica, sans-serif;
+    margin-right: 20px;
+}
+
+.ChipotleOrder h2 {
+    font-family: 'Slab-Serif', serif;
+    font-size: 40px;
+    margin: 0;
+    padding: 10px 0;
+    color: white;
+    background-color: black;
+}
+
+.ChipotleTable {
+    width: 100%;
+    border-collapse: collapse;
+    padding-top: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: black;
+}
+
+.ChipotleTable th,
+.ChipotleTable td {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 12px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.ChipotleTable th {
+    font-size: 20px;
+    font-family: 'Slab-Serif', serif;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.ChipotleTableImg {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    display: block;
 }
